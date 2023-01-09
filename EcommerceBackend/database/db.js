@@ -9,7 +9,7 @@ const mongoose=require('mongoose');
 
   
 //cloud server
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://swastika:swastika@cluster0.4fhwc.mongodb.net/ecomm?retryWrites=true&w=majority',{ 
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://username:password@cluster0.4fhwc.mongodb.net/ecomm?retryWrites=true&w=majority',{ 
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
     useFindAndModify: false, 
